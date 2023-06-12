@@ -262,8 +262,6 @@ function HowToUse() {
 
     function gapiLoaded() {
         gapi.load('client', initializeGapiClient);
-        const gisInited = true; // Assign the value to the variable
-        return gisInited; // Return the value or use it in your code
     }
 
     async function initializeGapiClient() {
@@ -286,9 +284,6 @@ function HowToUse() {
           scope: SCOPES,
           callback: '', // defined later
         });
-        
-        const gisInited = true; // Assign the value to the variable
-        return gisInited; // Return the value or use it in your code
     }
 
     function handleAuthClick() {
