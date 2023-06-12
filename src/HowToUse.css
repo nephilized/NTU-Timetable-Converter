@@ -1,0 +1,28 @@
+.caption1{
+  position: relative;
+  top: -25px;
+  right: 0px;
+}
+
+.authorize_button{
+  position: relative;
+  top: 640px;
+  left: 300px;
+}
+
+.signout_button{
+  position: relative;
+  top: 750px;
+  left: 250px;
+}
+
+.upload{
+  position: relative;
+  top: 675px;
+  left: 500px;
+}
+
+.example{
+  width: 1000px;
+}
+
