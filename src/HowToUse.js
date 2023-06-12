@@ -23,7 +23,7 @@ function HowToUse() {
         //const expiryTime = new Date().getTime() + expiresIn * 1000;
         gapiLoaded()
         gisLoaded()
-    }, [])
+    })
 
     const handleFileUpload = (event) => {
         const file = event.target.files[0];
@@ -269,7 +269,6 @@ function HowToUse() {
           apiKey: API_KEY,
           discoveryDocs: [DISCOVERY_DOC],
         });
-        gapiInited = true;
     
         if (accessToken && expiresIn) {
           gapi.client.setToken({
@@ -285,8 +284,6 @@ function HowToUse() {
           scope: SCOPES,
           callback: '', // defined later
         });
-    
-        gisInited = true;
     }
 
     function handleAuthClick() {
