@@ -17,7 +17,7 @@ function HowToUse() {
     const accessToken = localStorage.getItem('access_token');
     const expiresIn = localStorage.getItem('expires_in');
 
-    let gapiInited = false, gisInited = false, tokenClient;
+    let tokenClient;
 
     useEffect(() => {
         //const expiryTime = new Date().getTime() + expiresIn * 1000;
@@ -272,7 +272,6 @@ function HowToUse() {
           discoveryDocs: [DISCOVERY_DOC],
         });
         
-        gapiInited = true;
     
         if (accessToken && expiresIn) {
           gapi.client.setToken({
@@ -289,7 +288,6 @@ function HowToUse() {
           callback: '', // defined later
         });
         
-        gisInited = true;
     }
 
     function handleAuthClick() {
