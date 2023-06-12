@@ -51,7 +51,8 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "plugins": ["react"]
   },
   "browserslist": {
     "production": [
@@ -66,6 +67,7 @@
     ]
   },
   "devDependencies": {
+    "eslint-plugin-react": "^7.32.2",
     "gh-pages": "^5.0.0",
     "webpack": "^5.85.1",
     "webpack-cli": "^5.1.3"
