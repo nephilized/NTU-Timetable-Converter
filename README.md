@@ -1,5 +1,7 @@
 # NTU-Timetable-Converter
 
+*Deployed at ntutimetableconverter.netlify.app
+
 This is a webpage to help Nanyang Technological University Students to convert their NTU timetable to their Google Calendar.
 
 Technologies Used:
@@ -8,6 +10,7 @@ ReactJS
 Javascript
 CSS
 HTML
+
 Features:
 
 Google OAuth2
