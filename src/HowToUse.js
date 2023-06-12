@@ -262,6 +262,8 @@ function HowToUse() {
 
     function gapiLoaded() {
         gapi.load('client', initializeGapiClient);
+        
+        
     }
 
     async function initializeGapiClient() {
@@ -284,6 +286,8 @@ function HowToUse() {
           scope: SCOPES,
           callback: '', // defined later
         });
+        
+        gisInited = true;
     }
 
     function handleAuthClick() {
@@ -361,6 +365,9 @@ function HowToUse() {
                         dateTime: getEventEndDate(eventDetails, endTime).toISOString(),
                         timeZone: 'Asia/Singapore',
                     },
+                    reminders: {
+                        'useDefault': true,
+                    }
                 };
 
                 var request = gapi.client.calendar.events.insert({
