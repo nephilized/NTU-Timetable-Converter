@@ -271,6 +271,8 @@ function HowToUse() {
           apiKey: API_KEY,
           discoveryDocs: [DISCOVERY_DOC],
         });
+        
+        gapiInited = true;
     
         if (accessToken && expiresIn) {
           gapi.client.setToken({
