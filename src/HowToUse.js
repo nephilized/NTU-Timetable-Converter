@@ -23,7 +23,7 @@ function HowToUse() {
         //const expiryTime = new Date().getTime() + expiresIn * 1000;
         gapiLoaded()
         gisLoaded()
-    }, [])
+    }, [gapiLoaded, gisLoaded])
 
     const handleFileUpload = (event) => {
         const file = event.target.files[0];
