@@ -6,12 +6,12 @@ This is a webpage to help Nanyang Technological University Students to convert t
 
 Technologies Used:
 
-ReactJS
-Javascript
-CSS
+ReactJS  
+Javascript  
+CSS  
 HTML
 
 Features:
 
-Google OAuth2
+Google OAuth2  
 Data Extraction of Class Name, Class Date, Class Start Time, Class End Time, Class Location
