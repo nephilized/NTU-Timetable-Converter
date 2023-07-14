@@ -2,7 +2,7 @@
 
 ## About The Project
 
-NTU Timetable Converter is an app for NTU students. This app streamlines the process of transferring their timetables and automatically creates corresponding events in their Google Calendars. With this app, students can eliminate the hassle of manually inputting their classes each weel, saving timea and effort. The conversion process is completed within seconds, ensuring an efficient and seamless experience. By utilizing this app, NTU students can effectively manage their schedules and stay organized with ease.
+NTU Timetable Converter is an app for NTU students. This app streamlines the process of transferring their timetables and automatically creates corresponding events in their Google Calendars. With this app, students can eliminate the hassle of manually inputting their classes each week, saving time and effort. The conversion process is completed within seconds, ensuring an efficient and seamless experience. By utilizing this app, NTU students can effectively manage their schedules and stay organized with ease.
 Deployed [here](ntutimetableconverter.netlify.app).
 
 ## Youtube Video
