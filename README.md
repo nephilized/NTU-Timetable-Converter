@@ -17,5 +17,4 @@ Features of the Application: Google OAuth2 (To have access to users' google cale
 ## Tech Stack
 - ReactJS
 
-## Contact
-- LinkedIn - [Dario Ang](https://www.linkedin.com/in/dariooang/)
+
